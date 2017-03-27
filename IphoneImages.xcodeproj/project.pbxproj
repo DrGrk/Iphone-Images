@@ -13,6 +13,8 @@
 		76CF8BFE1E89AC8200B17391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CF8BFC1E89AC8200B17391 /* Main.storyboard */; };
 		76CF8C001E89AC8200B17391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CF8BFF1E89AC8200B17391 /* Assets.xcassets */; };
 		76CF8C031E89AC8200B17391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CF8C011E89AC8200B17391 /* LaunchScreen.storyboard */; };
+		76CF8C0F1E89B9B800B17391 /* IphoneImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CF8C0E1E89B9B800B17391 /* IphoneImages.m */; };
+		76CF8C121E89BBB600B17391 /* imgurAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CF8C111E89BBB600B17391 /* imgurAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		76CF8BFF1E89AC8200B17391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76CF8C021E89AC8200B17391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76CF8C041E89AC8200B17391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76CF8C0D1E89B9B800B17391 /* IphoneImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IphoneImages.h; sourceTree = "<group>"; };
+		76CF8C0E1E89B9B800B17391 /* IphoneImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IphoneImages.m; sourceTree = "<group>"; };
+		76CF8C101E89BBB600B17391 /* imgurAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgurAPI.h; sourceTree = "<group>"; };
+		76CF8C111E89BBB600B17391 /* imgurAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imgurAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				76CF8C011E89AC8200B17391 /* LaunchScreen.storyboard */,
 				76CF8C041E89AC8200B17391 /* Info.plist */,
 				76CF8BF31E89AC8200B17391 /* Supporting Files */,
+				76CF8C0D1E89B9B800B17391 /* IphoneImages.h */,
+				76CF8C0E1E89B9B800B17391 /* IphoneImages.m */,
+				76CF8C101E89BBB600B17391 /* imgurAPI.h */,
+				76CF8C111E89BBB600B17391 /* imgurAPI.m */,
 			);
 			path = IphoneImages;
 			sourceTree = "<group>";
@@ -151,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				76CF8BFB1E89AC8200B17391 /* ViewController.m in Sources */,
+				76CF8C121E89BBB600B17391 /* imgurAPI.m in Sources */,
 				76CF8BF81E89AC8200B17391 /* AppDelegate.m in Sources */,
+				76CF8C0F1E89B9B800B17391 /* IphoneImages.m in Sources */,
 				76CF8BF51E89AC8200B17391 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
